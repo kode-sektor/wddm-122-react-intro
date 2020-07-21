@@ -4,6 +4,8 @@ import {Route, Switch} from 'react-router-dom';
 import Home from './components/Home/home';
 import Layout from './hoc/Layout/layout';	// import template
 import './hoc/Layout/layout.css';	// import general stylesheet
+import './hoc/Layout/responsiveness.css';	// import general stylesheet
+
 
 
 class Routes extends Component {
