@@ -72,7 +72,7 @@ const Home = () => {
 
 				<h2 className="section-title">Product Listings</h2>
 
-				<ul class="product-list">
+				<ul className="product-list">
 					<ProductList/>
 				</ul>
 
