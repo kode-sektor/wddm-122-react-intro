@@ -323,11 +323,16 @@ const productList = () => {
 
 	];
 
+	// Add alert
+	const alertify = (event) => {
+		alert("This product has been added to your cart!")
+	}
+
 	const dispProducts = () => {
 		return productModel.slice(0, 15).map((item, i) => {
 			return (
 				<li key={i}>
-					<a href="/">
+					<a href="/" onClick={() => {alertify()}}>
 						<div className="product-listing-single">
 						    <h4>{item.title}</h4>
 							<h5>Price : $ CAD {item.price}</h5>
