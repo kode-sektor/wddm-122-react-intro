@@ -6,37 +6,37 @@ const Header = (props) => {
 
 	return (
 
-		<header class="page-header">
+		<header className="page-header">
 
-		    <div class="header-area">
+		    <div className="header-area">
 
-		        <div class="logo">
+		        <div className="logo">
 		            <a href="/"><img src="/img/humber-zon-sm.png" alt=""/></a>
 
 		        </div>
 
-		        <nav class="main-menu">
+		        <nav className="main-menu">
 
-		            <ul id="navigation" class="main-menu-nav">  
+		            <ul id="navigation" className="main-menu-nav">  
 
 		                <li><a href="/productListing">Shop</a></li>
 		                <li><a href="#best-sellers">Best Sellers</a></li>
-		                <li class=""><a href="#">Latest</a>
-		                    <ul class="submenu">
+		                <li className=""><a href="#">Latest</a>
+		                    <ul className="submenu">
 		                        <li><a href="/">Product list</a></li>
 		                        <li><a href="/"> Product Details</a></li>
 		                    </ul>
 		                </li>                       
 
-		                <li class="categories-first"><a href="/">Computers</a></li>
-		                <li class="categories"><a href="/">Electronics</a></li>
-		                <li class="categories-last"><a href="/">Books</a></li>
+		                <li className="categories-first"><a href="/">Computers</a></li>
+		                <li className="categories"><a href="/">Electronics</a></li>
+		                <li className="categories-last"><a href="/">Books</a></li>
 
 		                <li><a href="/">Sell</a></li>
 		                <li><a href="/">Make Purchase</a></li>
 
 		                <li><a href="#">Pages</a>
-		                    <ul class="submenu">
+		                    <ul className="submenu">
 		                        <li><a href="/">Login</a></li>
 		                        <li><a href="/">Cart</a></li>
 		                        <li><a href="/">Element</a></li>
@@ -47,14 +47,14 @@ const Header = (props) => {
 		                <li><a href="/">Contact</a></li>
 		            </ul>
 
-		            <ul class="user-related-links">
-		                <li class="nav-search">
-		                    <span class="fa fa-search"></span>
+		            <ul className="user-related-links">
+		                <li className="nav-search">
+		                    <span className="fa fa-search"></span>
 		                </li>
-		                <li> <a id="login-create-account" href="/login"><span class="fa fa-user"></span></a></li>
-		                <li><a href="/cart"><span class="fa fa-shopping-cart"></span></a></li>
+		                <li> <a id="login-create-account" href="/login"><span className="fa fa-user"></span></a></li>
+		                <li><a href="/cart"><span className="fa fa-shopping-cart"></span></a></li>
 
-		                <li><button type="button" id="toggle-btn-nav" class="toggle-btn-nav"><span class="fa fa-bars"></span></button></li>
+		                <li><button type="button" id="toggle-btn-nav" className="toggle-btn-nav"><span className="fa fa-bars"></span></button></li>
 
 		            </ul>
 
