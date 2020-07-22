@@ -12,6 +12,7 @@ const Header = (props) => {
 
 		        <div class="logo">
 		            <a href="/"><img src="/img/humber-zon-sm.png" alt=""/></a>
+
 		        </div>
 
 		        <nav class="main-menu">
